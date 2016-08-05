@@ -9,6 +9,14 @@ bag,hello,without,world
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 Use a sorting method
+solution 
+
+input=raw_input("Enter the words with commas, ")
+split=input.split(",")
+sorted=sorted(split)
+print  sorted
+
+
 
 
 
@@ -21,6 +29,14 @@ Practice makes perfect
 Then, the output should be:
 HELLO WORLD
 PRACTICE MAKES PERFECT
+
+solution
+
+input=raw_input("Enter the word to capitalized ")
+#if input==input.lower():
+print(input.upper())
+
+
 
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
